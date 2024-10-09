@@ -1,0 +1,292 @@
+
+<html>
+<head>
+<title>REGISTRATION FORM</title>
+
+<style>
+    .round-image {
+        width: 80px; /* Set width */
+        height: 80px; /* Set height */
+        border-radius:  50%; /* Makes the image round */
+        object-fit: cover; /* Ensures the image covers the entire area */
+        border:solid red 2px;
+    }
+
+    body {
+        margin: 10px;
+        border: 2px solid red;
+        padding: 2px;
+        background-color: #FFFFC5;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: space-between; /* Space between the boxes */
+        width: 100%; /* Adjust width as needed */
+        padding: 5px;
+        margin: 2px;
+    }
+
+    /* Style for each box */
+    .box {
+        width: 45%; /* Each box takes 45% of the container's width */
+        padding: 10px;
+        background-color: #f0f0f0; /* Light gray background */
+        border: 2px solid #ccc; /* Light border */
+        text-align: right; /* Center the text */
+    }
+
+    h3, h4 {
+        color: blue;
+        text-align: center;
+    }
+
+    h4 {
+        margin-top: auto;
+    }
+
+    span {
+        font-size: 12px;
+    }
+
+    .header {
+        height: 80px;
+    }
+
+    .contain {
+        display: flex;
+        flex-direction: column; /* Align images vertically */
+        justify-content: center; /* Aligns content to the center */
+        padding: 10px; /* Optional: Add some padding */
+    }
+
+    .img {
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        margin-bottom: 10px; /* Add some space between the images */
+    }
+
+    #preview {
+        height: 150px;
+        width: 150px;
+    }
+    .print-button{
+        background-color: red;
+    }
+    #restbtn{
+background-color: blue;
+}
+input {
+    font-weight: bold;
+}
+
+</style>
+</head>
+<body>
+<div class="header">
+    <img src="C:\Users\Administrator\Desktop\ranja\logo.jpg" align="left" class="round-image">
+    <h3>ANANYA ACADEMY OF SOFTWARE SOLUTION & e-TECHNOLOGY<br/>
+    <span>AN ISO 9001:2008 CERTIFIED ORGANISATION<BR>
+    ENROLLED UNDER MSME(GOVT.OF INDIA) UAN:OD09D0000699<br>
+    REGISTERED UNDER PARTNERSHIP ACT 1932(GOVT. OF ODISHA) VIDE REGD. NO:253/17</span>
+    </h3>
+</div>
+<hr height="20%" color="red">
+<B><U><H3 ALIGN="CENTER"> <FONT COLOR="BLUE">REGISTRATION FORM</H3></B></U></FONT>
+<form method="POST" enctype="multipart/form-data">
+    <div class="container">
+        <div>
+            1- STREAM: IT <input type="checkbox">
+            SOFT SKILLS<input type="checkbox"><br>
+
+            2-BRANCH CODE:
+            <SELECT>
+                <OPTION>AA-05<OPTION>AA-06 
+            </SELECT><br/>
+
+            <label>3-COURSE SOUGHT FOR:</label>
+            <select>
+                <option>F.C.E</option>
+                <option>PGDCA</option>
+                <option>CCO</option>
+                <option>DCA</option>
+                <option>DATA ENTRY</option>
+                <option>ADCHN</option>
+                <option>DCHN</option>
+                <option>TALLY</option>
+                <option>DTP</option>
+                <option>SPOKEN ENGLISH</option>
+            </select>
+            <br/>
+
+            <label>4-DURATION:</label>
+            <select>
+                <option>45 DAYS</option>
+                <option>3 MONTH</option>
+                <option>6 MONTH</option>
+                <option>1 YEAR</option>
+                <option>2 MONTH</option>
+            </select><br/>
+
+            <label>5.NAME OF THE CANDIDATE: </label>
+            <input type="text" SIZE="30"><br/><br/>
+
+            <label>6-FATHER'S NAME:</label>       
+            <input type="text" SIZE="30"><br/><br/>
+
+            7-MOTHER'S NAME:<input type="text" SIZE="30"><br><br/>
+
+            8-PERMANENT ADDRESS:<br/>
+            <textarea style="height: 70px; width:200px ;"></textarea>
+        </div>
+
+        <div class="contain">
+            <div class="img">
+                <img id="preview1" src="#" alt="Image Preview 1" style="height: 150px; width: 150px;">
+            </div>
+            <div class="img">
+                <input type="file" id="image" accept="image/*" style="margin-left: 30% ;">
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="mid">
+<label>9:DATE OF BIRTH:</label>
+<input style="height: 20px;" type="date">
+
+<label>10-GENDER:</label>
+<select>
+    <option>MALE</option>
+    <option >FEMALE</option>
+    <option>OTHERS</option>
+</select>
+
+<label>11-CATEGORY:</label>
+<select>
+    <option>SC</option>
+    <option>ST</option>
+    <option>OBC</option>
+    <option>GENERAL</option>
+    <option>OTHERS</option>
+</select><br/>
+
+<label>12-MARITIAL STATUS:</label>
+<select>
+<option>SINGLE</option>
+<option>MARRIED</option>
+<option>WIDOW</option>
+<option>WIDOWER</option>
+<option>DIVORCE</option>
+<option>RELATION</option>
+</select>
+<br/><br/>
+
+13-EMAIL ID:<input type=text SIZE="35" ><br/> 
+
+14-MOBILE NO:<input type=text><br>
+
+<label>15-ACADEMIC QUALIFICATION:</label>
+<select>
+<optin>10TH PASS</option>
+<option>12TH PASS</option>
+<option>GRADUATE</option>
+<option>ITI</option>
+<option>DIPLOMA</option>
+<option>B.TECH</option>
+<option>OTHERS</option>
+</select>
+<label>16-STUDENTS BELONGS TO:</label>
+<select>
+<option>RURAL AREA</option>
+<option>URBAN AREA</option>
+</select><br/><br/>
+<label>17-GOVT.EMPLOYEE:</label>
+<select>
+<option>SELF</option>
+<option>FATHER</option>
+<option>MOTHER</option>
+<option>NONE</option>
+</select>
+
+18-EX-SERVICE MAN-YES:<input type=checkbox> NO:<input type=checkbox><br/>
+
+<U><H4 ALIGN="CENTER"><FONT COLOR="BLUE">DECLARATION</FONT></H4></U>
+
+</form>
+
+I DO HERE BY DECLARED THAT THE PARTICULARS STATED ABOVE ARE TRUE TO THE
+BEST OF MY KNOWLEDGE.<BR>
+
+    DATE:<input type="date" style="height: 20px;"><br/>
+    PLACE:
+<SELECT>
+<OPTION>RANJA,DHENKANAL<OPTION>RANJA CHHAK,DHENKANAL<OPTION>DHENKANAL
+</SELECT><BR>
+<p align="right"><FONT COLOR="RED" size="2"><b>SIGNATURE OF APPLICANT</b></FONT></p>
+</div>
+<HR HEIGHT="20%" COLOR="RED">
+
+
+<U><H4 ALIGN="CENTER"><FONT COLOR="BLUE">FOR OFFICE USE ONLY</FONT></H4></U><BR>
+
+<label>1-DURATION OF COURSE:</label>
+<SELECT>
+<OPTION>45 DAYS<OPTION>3 MONTH <OPTION>6 MONTH<OPTION>1 YEAR<OPTION>2 MONTH
+</SELECT>&nbsp;&nbsp;&nbsp;
+
+<label> DATE OF JOINING:</label>
+<input type="date"  style="height: 20px;"></B><BR><BR><BR><BR>
+
+<B><I><FONT COLOR="BLUE">ACADEMIC CO-ORDINATOR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+BRANCH MANAGER</B></I></FONT>
+<BR>
+
+<blockquote><blockquote><blockquote><blockquote><blockquote><blockquote><blockquote>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<!-- Reset Button -->
+
+
+
+</blockquote></blockquote></blockquote></blockquote></blockquote></blockquote></blockquote>
+
+<!-- Print Button -->
+    <div style="text-align: center;">
+        <button type="button" class="print-button" onclick="printForm()">Print</button>
+        <button type="reset" id="restbtn" onclick="reset()">Reset</button>
+    </div>
+</form>
+
+<script>
+    function printForm() {
+        window.print();
+    }
+    
+         
+    document.getElementById('image').addEventListener('change', function(event) {
+        const reader = new FileReader();
+        reader.onload = function() {
+            const preview = document.getElementById('preview1');
+            preview.src = reader.result;
+        };
+        reader.readAsDataURL(event.target.files[0]);
+    });
+ </script>
+</body>
+</head>
+</html>
